@@ -1,3 +1,12 @@
+# Description
+This repository contains two IPython Notebooks and related scripts, data for two pen stroke sequence generation models.
+
+1. helping_hand.ipynb is an autoencoder model that learns a mapping from 2-DOF sketches (only x,y coordinates) to 5-DOF sketches (x,y coordinates, pen pressure, x,y tilt). The result is a replica of "HelpingHand: Example-based Stroke Stylization" (Lu, 2012)
+
+2. handwriting.ipynb is an autoencoder model that learns to reconstruct readable handwritings of a certain style from simulated dysgraphia data. 
+
+# Usage
+Training and executing the models requires PyTorch with CUDA support. Google Colab notebook with GPU mode is recommended. To use Colab notebook, upload every files and folders to Google Drive, open the notebook file and import scripts from Google Drive. Notebooks contain necessary descriptions and instructions of code snippets.
 
 # Repository structure
 
@@ -18,11 +27,10 @@ Raw data is large does not need to be downloaded unless want to change the stora
 
 Demo executable from "HelpingHand: Example-based Stroke Stylization" (Lu, 2012) https://gfx.cs.princeton.edu/pubs/Lu_2012_HES/index.php
 
-Contains 6D (coordinates+pressure+tilt) drawing data in .cyn text format and software executable for visualization
+Contains 6D (coordinates+pressure+tilt) drawing data in .cyn text format and software tool for sketch rendering
 
 - /results
 Some drawing data generated with ML models. Can be visualized using the Helping Hand tool.
-
 
 
 

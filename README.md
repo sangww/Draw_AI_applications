@@ -25,7 +25,7 @@ Raw data is large does not need to be downloaded unless want to change the stora
     - /HelpingHandDataset
     - /hhdemoRelease
 
-Demo executable from "HelpingHand: Example-based Stroke Stylization" (Lu, 2012) https://gfx.cs.princeton.edu/pubs/Lu_2012_HES/index.php
+Visualization tool from "HelpingHand: Example-based Stroke Stylization" (Lu, 2012) https://gfx.cs.princeton.edu/pubs/Lu_2012_HES/index.php
 
 Contains 6D (coordinates+pressure+tilt) drawing data in .cyn text format and software tool for sketch rendering
 
@@ -38,11 +38,8 @@ Some drawing data generated with ML models. Can be visualized using the Helping 
 
 The following is quoted from HelpingHand docs
 
-## Data format
-
-=============================================
-The .cyn file format
-=============================================
+## .cyn file format
+cyn files are used to store 6-D stroke data
 
 For example:
 
